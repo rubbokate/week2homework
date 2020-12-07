@@ -34,128 +34,116 @@
 </head>
 
 <body>
-    <div class="container pt-3">
-        <div class="row">
-            <div class="col-6 d-flex justify-content-start align-items-center">
-                <i class="fas fa-code fa-2x text-warning pb-3"></i>
-                <h5 class="text-white d-inline pl-2">Kaitlyn Rubbo</h5>
-            </div>
-            <div class="col-6 pt-2">
-                <div class="row">
-                    <div class="col-3">
-                        <a href="#about" class="text-white navigation-link">About</a>
-                    </div>
-                    <div class="col-3">
-                        <a href="#portfolio" class="text-white navigation-link">Portfolio</a>
-                    </div>
-                    <div class="col-3">
-                        <a href="#contact" class="text-white navigation-link">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-#1f2235 d-flex justify-content-start align-items-centerc">
+        <i class="fas fa-code fa-2x text-warning"></i>
+        <a class="navbar-brand text-white d-inline pl-3" href="#">Kaitlyn Rubbo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="container main-container">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-white navigation-link" href="#about">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white navigation-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white navigation-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container main-container pt-2">
         <div class="row main_row">
-            <div class="col-6">
+            <div class="float-left">
                 <h2 class="text-white">Hello, I'm</h2>
                 <h1 class="text-warning m-heading">Kaitlyn Rubbo</h2>
-                    <h2 class="text-white">Student Web Developer</h2>
+                <h2 class="text-white">Student Web Developer</h2>
             </div>
-            <div class="col-6">
-                <img src="IMG_2730.png.JPG" alt="A picture of Kaitlyn Rubbo">
-            </div>
-        </div>
-    </div>
-
-    <div id="about" class="container p-5">
-        <div class="row">
-            <div class="col-6">
-                <img src="pic.png.JPG" class="img-fluid" alt="Another picture of Kaitlyn Rubbo">
-            </div>
-            <div class="col-6 pl-5 pt-5 pb-5 text-white">
-                <h3 class="text-warning">About Me</h3>
-                <h1 class="m-heading">A little bit about me</h1>
-                <p>Hello. I'm Kaitlyn. I am a 20 year old web developer student. I am <b
-                        class="text-warning">passionate</b> about making webpages more <b
-                        class="text-warning">accessible</b> for everyone. A little
-                    bit about my background, I was born in Michigan. I still currently am a resident in Michigan. I
-                    graduated in 2018 from Garden City High School.</p>
-
-                <p>I started coding in October of 2020. Then I started the MSU Coding Bootcamp in November of 2020. I am
-                    hoping that with the
-                    skills that I learn on my own and in this bootcamp that I will be able to get a job as a jr web
-                    developer. I am a <b class="text-warning">hardworker</b> and really want to be able to expand my
-                    knowledge.</p>
+            <div class="float-left">
+                <img src="image3.png" class="img-fluid" alt="A picture of Kaitlyn Rubbo">
             </div>
         </div>
     </div>
 
-    <div id="portfolio" class="container mt-3 pt-5">
-        <h1 class="text-warning mb-3 pb-2">My Portfolio</h1>
-        <div class="row">
-            <div class="col-4 mb-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://cdn3.careeraddict.com/uploads/article/3999/user-1704890-2017-01-30-16-47-15.jpg"
-                        class="card-img-top p-2" alt="image of a portfolio">
-                    <div class="card-body">
-                        <h5 class="card-title">Portfolio</h5>
-                        <p class="card-text">If you would like to see my portfolio click on the button.</p>
-                        <a href="./portfolio.html" target="_blank" class="btn btn-warning">See Portfolio</a>
+    <div id="about" class="container pb-2">
+        <div class=" text-white">
+            <h3 class="text-warning">About Me</h3>
+            <h1 class="m-heading">A little bit about me</h1>
+            <p>Hello. I'm Kaitlyn. I am a 20 year old web developer student. I am <b
+                    class="text-warning">passionate</b> about making webpages more <b
+                    class="text-warning">accessible</b> for everyone. A little
+                bit about my background, I was born in Michigan. I still currently am a resident in Michigan. I
+                graduated in 2018 from Garden City High School.</p>
+
+            <p>I started coding in October of 2020. Then I started the MSU Coding Bootcamp in November of 2020. I am
+                hoping that with the
+                skills that I learn on my own and in this bootcamp that I will be able to get a job as a jr web
+                developer. I am a <b class="text-warning">hardworker</b> and really want to be able to expand my
+                knowledge.</p>
+        </div>
+    </div>
+
+    <div id="portfolio" class="container pt-3 pb-3">
+        <h3 class="text-warning">My Portfolio</h3>
+        <div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://cdn3.careeraddict.com/uploads/article/3999/user-1704890-2017-01-30-16-47-15.jpg"
+                    class="card-img-top p-2" alt="image of a portfolio">
+                <div class="card-body">
+                    <h5 class="card-title">Portfolio</h5>
+                    <p class="card-text">If you would like to see my portfolio click on the button.</p>
+                    <a href="./portfolio.html" target="_blank" class="btn btn-warning">See Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="text-white container-fluid">
+        <h1 class="m-heading align">Follow Me!</h1>
+
+        <div class="m-heading align">
+            <a class="linkedin_link btn" href="https://www.linkedin.com/in/kaitlyn-rubbo-75999515b/" target="_blank">
+                <div class="row">
+                    <div class="pl-3 pt-1">
+                        <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+                    </div>
+                    <div class="pl-3">
+                        <h3 class="pt-1 text-white">LinkedIn</h3>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="contact" class="container-fluid p-4">
-        <div class="container text-white">
-            <h4 class="text-warning">Social Media</h4>
-            <h1 class="m-heading align">Follow Me!</h1>
-            <div class="row pt-5">
-                <div> <a class="col-3 media_link btn" href="https://www.linkedin.com/in/kaitlyn-rubbo-75999515b/"
-                        target="_blank">
-                        <div class="row">
-                            <div class="col-6 d-flex justify-content-start">
-                                <h3 class="pt-2 m-0 text-white">LinkedIn</h3>
-                            </div>
-                            <div class="col-6 d-flex justify-content-end align-items-center">
-                                <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
-                            </div>
-                        </div>
-                    </a>
+            </a>
+            <a class="github_link btn" href="https://github.com/rubbokate?tab=repositories" target="_blank">
+                <div class="row">
+                    <div class="pl-3 pt-1">
+                        <i class="fab fa-github fa-2x text-secondary"></i>
+                    </div>
+                    <div class="pl-3">
+                        <h3 class="pt-1 text-white">GitHub</h3>
+                    </div>
                 </div>
-                <div> <a class="col-3 media_link btn" href="https://github.com/rubbokate?tab=repositories"
-                        target="_blank">
-                        <div class="row">
-                            <div class="col-6 d-flex justify-content-start">
-                                <h3 class="pt-2 m-0 text-white">GitHub</h3>
-                            </div>
-                            <div class="col-6 d-flex justify-content-end align-items-center">
-                                <i class="fab fa-github fa-2x text-secondary"></i>
-                            </div>
-                        </div>
-                    </a>
+            </a>
+            <a class="contact_link btn-warning btn" href="./contact.html" target="blank">
+                <div class="row">
+                    <div class="pl-3 pt-1">
+                        <i class="fas fa-envelope fa-2x text-secondary"></i>
+                    </div>
+                    <div class="pl-3">
+                        <h3 class="pt-1 text-dark">Contact</h3>
+                    </div>
                 </div>
-                <div class="col-3 media_link btn-warning btn"> <a href="./contact.html">
-                        <div class="row">
-                            <div class="col-6 d-flex justify-content-start">
-                                <h3 class="pt-2 m-0 text-dark">Contact</h3>
-                            </div>
-                            <div class="col-6 d-flex justify-content-end align-items-center">
-                                <i class="fas fa-envelope fa-2x text-secondary"></i>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+            </a>
         </div>
         <footer>
-            <div class="container text-muted text-center py-3 mt-5">
+            <div class="container text-muted text-center pt-4">
                 <h5>Copyright &copy; 2020 | <a href="#" class="text-white">Kaitlyn Rubbo</a></h5>
             </div>
         </footer>
+    </div>
 </body>
 
 </html>
