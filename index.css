@@ -6,6 +6,13 @@ body{
 background:#1f2235;
 font-family: 'Source Code Pro', monospace;
 }
+
+@media (max-width: 629px) {
+img#main_image {
+    display: none;
+}
+}
+
 /*main heading font*/
 #nav {
 background: #313552;
@@ -73,13 +80,11 @@ width: 250px;
 border: 2px solid #f5ba09;
 border-radius: 0.5rem;
 }
-
 .github_link{
 width: 250px;
 border: 2px solid #f5ba09;
 border-radius: 0.5rem;
 }
-
 .contact_link{
 width: 250px;
 border: 2px solid #f5ba09;
@@ -108,7 +113,6 @@ margin-right: 1rem;
 border: 2px solid #f5ba09;
 margin-left: 1rem;
 }
-
 
 .navbar{
     color: white;
